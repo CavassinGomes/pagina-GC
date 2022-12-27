@@ -1,5 +1,88 @@
-.titulo-pagina{
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background: #202324;
+    padding: 20px 0;
+border-bottom: 2px solid #202324;
+}
+
+.logo{
+    position: block;
+    width: 100%;
+    margin: 0 auto -40px;
     text-align: center;
-    font-size: 24px;
+}
+
+nav{
+    position: relative;
+    text-align: center;
+    
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
     font-weight: bold;
+    font-size: 20px;
+    color: #EEEEEE;
+    margin: 0 10px 20px 10px;
+    top: 150px;
+}
+
+nav a:hover{
+    text-decoration: underline; 
+}
+
+.principal{
+    background:linear-gradient(#202324 10%, #282b2c);  
+}
+
+.titulo-principal{
+    padding:2em;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #EEEEEE;
+}
+
+.informacao{
+    display: block;
+    text-align: center;
+    color: #EEEEEE;
+    border: 2px solid goldenrod;
+    border-radius: 2em;
+    width: 100px;
+    padding: 10px;
+}
+
+.informacaoTexto{
+    font-size: 18px;
+    padding: 20px;
+}
+
+.mapa{
+    padding: 3em 0;
+    background: linear-gradient(#282b2c 90%, #202324);
+}
+
+.mapa-conteudo{
+    width: 940px;
+    margin: 0 auto;
+}
+
+footer{
+    text-align: center;
+	background: #202324;
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #EEEEEE;
+	font-size: 13px;
+	margin-top: 20px;
 }
